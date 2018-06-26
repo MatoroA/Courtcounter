@@ -1,3 +1,45 @@
 page-home {
 
+    .toolbar-background{
+        background-color: #FF4500;
+    }
+    .toolbar{
+        text-align: center;
+        
+    }
+    ion-content{
+        .teams-container{
+            display: grid;
+            grid-template-columns: auto auto;
+            padding: 3px;
+            grid-gap: 2px;
+        }
+        #answer{
+
+            font-size: 32px;
+        }
+        .team-b{
+            border-left: 1px solid black;
+            margin-right:-10px; /* size of gutter */
+            padding-right:10px;
+            padding: 26px;
+            text-align: center;
+        }
+        .team-a{
+            padding: 26px;
+            text-align: center;
+            justify-content: center;
+        }
+        #mm{
+            background-color: #FF4500;
+        }
+        #last{
+            bottom: 0;
+            position: fixed;
+            width: 25%;
+            margin-left: 38%;
+            background-color: #FF4500;
+        }
+    }
+
 }
